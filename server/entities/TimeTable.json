@@ -1,0 +1,64 @@
+{
+  "name": "TimeTable",
+  "type": "object",
+  "properties": {
+    "batch_id": {
+      "type": "string"
+    },
+    "batch_name": {
+      "type": "string"
+    },
+    "day_of_week": {
+      "type": "string"
+    },
+    "time_slot": {
+      "type": "string"
+    },
+    "start_time": {
+      "type": "string"
+    },
+    "end_time": {
+      "type": "string"
+    },
+    "subject": {
+      "type": "string"
+    },
+    "subject_name": {
+      "type": "string"
+    },
+    "faculty_email": {
+      "type": "string"
+    },
+    "faculty_name": {
+      "type": "string"
+    },
+    "room_number": {
+      "type": "string"
+    },
+    "class_type": {
+      "type": "string",
+      "default": "Theory"
+    },
+    "semester": {
+      "type": "string"
+    },
+    "academic_year": {
+      "type": "string"
+    },
+    "college_name": {
+      "type": "string"
+    },
+    "year": {
+      "type": "string"
+    },
+    "branch": {
+      "type": "string"
+    },
+    "division": {
+      "type": "string"
+    },
+    "color": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Query",
+  "type": "object",
+  "properties": {
+    "student_id": {
+      "type": "string"
+    },
+    "student_name": {
+      "type": "string"
+    },
+    "subject": {
+      "type": "string"
+    },
+    "question": {
+      "type": "string"
+    },
+    "response": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    }
+  }
+}

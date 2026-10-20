@@ -1,0 +1,31 @@
+{
+  "name": "PushSubscription",
+  "type": "object",
+  "properties": {
+    "user_email": {
+      "type": "string"
+    },
+    "user_role": {
+      "type": "string"
+    },
+    "user_type": {
+      "type": "string"
+    },
+    "endpoint": {
+      "type": "string"
+    },
+    "subscription": {
+      "type": "string"
+    },
+    "device_info": {
+      "type": "string"
+    },
+    "is_active": {
+      "type": "boolean",
+      "default": true
+    },
+    "subscribed_at": {
+      "type": "string"
+    }
+  }
+}

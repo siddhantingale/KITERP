@@ -1,0 +1,23 @@
+{
+  "name": "PendingPushNotification",
+  "type": "object",
+  "properties": {
+    "subscription_id": {
+      "type": "string"
+    },
+    "user_email": {
+      "type": "string"
+    },
+    "payload": {
+      "type": "string",
+      "description": "JSON string"
+    },
+    "sent": {
+      "type": "boolean",
+      "default": false
+    },
+    "created_at": {
+      "type": "string"
+    }
+  }
+}

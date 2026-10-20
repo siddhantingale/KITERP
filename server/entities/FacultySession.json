@@ -1,0 +1,44 @@
+{
+  "name": "FacultySession",
+  "type": "object",
+  "properties": {
+    "faculty_id": {
+      "type": "string"
+    },
+    "faculty_email": {
+      "type": "string"
+    },
+    "session_title": {
+      "type": "string"
+    },
+    "subject_module": {
+      "type": "string"
+    },
+    "batch_class": {
+      "type": "string"
+    },
+    "session_date": {
+      "type": "string"
+    },
+    "start_time": {
+      "type": "string"
+    },
+    "end_time": {
+      "type": "string"
+    },
+    "total_hours": {
+      "type": "number",
+      "default": 0
+    },
+    "mode": {
+      "type": "string",
+      "default": "Offline"
+    },
+    "remarks": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "faculty_id"
+  ]
+}

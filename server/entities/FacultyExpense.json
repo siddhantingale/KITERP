@@ -1,0 +1,32 @@
+{
+  "name": "FacultyExpense",
+  "type": "object",
+  "properties": {
+    "faculty_id": {
+      "type": "string"
+    },
+    "faculty_email": {
+      "type": "string"
+    },
+    "expense_date": {
+      "type": "string"
+    },
+    "expense_type": {
+      "type": "string",
+      "default": "Travel"
+    },
+    "amount": {
+      "type": "number",
+      "default": 0
+    },
+    "description": {
+      "type": "string"
+    },
+    "receipt_url": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "faculty_id"
+  ]
+}

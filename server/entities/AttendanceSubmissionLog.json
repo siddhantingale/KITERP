@@ -1,0 +1,49 @@
+{
+  "name": "AttendanceSubmissionLog",
+  "type": "object",
+  "properties": {
+    "session_id": {
+      "type": "string"
+    },
+    "student_id": {
+      "type": "string"
+    },
+    "student_identifier": {
+      "type": "string"
+    },
+    "device_fingerprint": {
+      "type": "string"
+    },
+    "ip_address": {
+      "type": "string"
+    },
+    "user_agent": {
+      "type": "string"
+    },
+    "latitude": {
+      "type": "number"
+    },
+    "longitude": {
+      "type": "number"
+    },
+    "gps_accuracy": {
+      "type": "number"
+    },
+    "qr_timestamp": {
+      "type": "string"
+    },
+    "submission_timestamp": {
+      "type": "string"
+    },
+    "success": {
+      "type": "boolean"
+    },
+    "failure_reason": {
+      "type": "string"
+    },
+    "is_suspicious": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

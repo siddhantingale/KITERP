@@ -1,0 +1,39 @@
+{
+  "name": "QuizResponse",
+  "type": "object",
+  "properties": {
+    "assignment_id": {
+      "type": "string"
+    },
+    "question_id": {
+      "type": "string"
+    },
+    "student_id": {
+      "type": "string"
+    },
+    "student_name": {
+      "type": "string"
+    },
+    "student_email": {
+      "type": "string"
+    },
+    "prn": {
+      "type": "string"
+    },
+    "roll_no": {
+      "type": "string"
+    },
+    "student_answer": {
+      "type": "string"
+    },
+    "is_correct": {
+      "type": "boolean"
+    },
+    "marks_awarded": {
+      "type": "number"
+    },
+    "submitted_at": {
+      "type": "string"
+    }
+  }
+}

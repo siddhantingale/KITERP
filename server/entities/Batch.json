@@ -1,0 +1,41 @@
+{
+  "name": "Batch",
+  "type": "object",
+  "properties": {
+    "batch_id": {
+      "type": "string",
+      "description": "Unique batch code"
+    },
+    "batch_name": {
+      "type": "string"
+    },
+    "batch_description": {
+      "type": "string"
+    },
+    "batch_type": {
+      "type": "string"
+    },
+    "college_name": {
+      "type": "string"
+    },
+    "year": {
+      "type": "string"
+    },
+    "branch": {
+      "type": "string"
+    },
+    "division": {
+      "type": "string"
+    },
+    "student_count": {
+      "type": "number",
+      "default": 0
+    },
+    "created_by": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "batch_id"
+  ]
+}

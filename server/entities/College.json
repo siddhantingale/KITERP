@@ -1,0 +1,21 @@
+{
+  "name": "College",
+  "type": "object",
+  "properties": {
+    "college_name": {
+      "type": "string"
+    },
+    "short_name": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "state": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "college_name"
+  ]
+}

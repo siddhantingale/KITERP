@@ -1,0 +1,44 @@
+{
+  "name": "TeachingNote",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "subject": {
+      "type": "string"
+    },
+    "topic": {
+      "type": "string"
+    },
+    "excalidraw_data": {
+      "type": "string",
+      "description": "Serialized Excalidraw JSON"
+    },
+    "faculty_email": {
+      "type": "string"
+    },
+    "faculty_name": {
+      "type": "string"
+    },
+    "last_modified": {
+      "type": "string"
+    },
+    "college_name": {
+      "type": "string"
+    },
+    "year": {
+      "type": "string"
+    },
+    "branch": {
+      "type": "string"
+    },
+    "division": {
+      "type": "string"
+    },
+    "batch_id": {
+      "type": "string",
+      "description": "Batch code (Batch.batch_id), not record id"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "name": "AttendanceRecord",
+  "type": "object",
+  "properties": {
+    "student_id": {
+      "type": "string"
+    },
+    "session_id": {
+      "type": "string"
+    },
+    "batch_id": {
+      "type": "string"
+    },
+    "is_present": {
+      "type": "boolean",
+      "default": false
+    },
+    "marked_at": {
+      "type": "string"
+    },
+    "marked_by": {
+      "type": "string"
+    },
+    "student_name": {
+      "type": "string"
+    },
+    "prn": {
+      "type": "string"
+    },
+    "roll_no": {
+      "type": "string"
+    },
+    "session_date": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "student_id",
+    "session_id"
+  ]
+}

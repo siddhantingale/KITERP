@@ -1,0 +1,48 @@
+{
+  "name": "QRActiveStudent",
+  "type": "object",
+  "properties": {
+    "session_id": {
+      "type": "string"
+    },
+    "student_id": {
+      "type": "string"
+    },
+    "student_name": {
+      "type": "string"
+    },
+    "prn": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "device_fingerprint": {
+      "type": "string"
+    },
+    "latitude": {
+      "type": "number"
+    },
+    "longitude": {
+      "type": "number"
+    },
+    "gps_accuracy": {
+      "type": "number"
+    },
+    "distance_from_geofence": {
+      "type": "number"
+    },
+    "is_inside_geofence": {
+      "type": "boolean"
+    },
+    "portal_opened_at": {
+      "type": "string"
+    },
+    "last_active_at": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "name": "Announcement",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "message": {
+      "type": "string"
+    },
+    "recipient_type": {
+      "type": "string",
+      "default": "All"
+    },
+    "batch_id": {
+      "type": "string"
+    },
+    "priority": {
+      "type": "string",
+      "default": "Medium"
+    },
+    "category": {
+      "type": "string",
+      "default": "General"
+    },
+    "sender_name": {
+      "type": "string"
+    },
+    "sender_email": {
+      "type": "string"
+    },
+    "announcement_date": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "title"
+  ]
+}

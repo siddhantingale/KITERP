@@ -1,0 +1,49 @@
+{
+  "name": "FacultyInvoice",
+  "type": "object",
+  "properties": {
+    "faculty_id": {
+      "type": "string"
+    },
+    "faculty_email": {
+      "type": "string"
+    },
+    "invoice_number": {
+      "type": "string"
+    },
+    "billing_period_start": {
+      "type": "string"
+    },
+    "billing_period_end": {
+      "type": "string"
+    },
+    "total_hours": {
+      "type": "number"
+    },
+    "rate_per_hour": {
+      "type": "number"
+    },
+    "subtotal": {
+      "type": "number"
+    },
+    "total_expenses": {
+      "type": "number"
+    },
+    "grand_total": {
+      "type": "number"
+    },
+    "status": {
+      "type": "string",
+      "default": "Generated"
+    },
+    "remarks": {
+      "type": "string"
+    },
+    "invoice_url": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "faculty_id"
+  ]
+}

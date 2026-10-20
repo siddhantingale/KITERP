@@ -1,0 +1,40 @@
+{
+  "name": "Message",
+  "type": "object",
+  "properties": {
+    "sender_id": {
+      "type": "string"
+    },
+    "sender_name": {
+      "type": "string"
+    },
+    "sender_email": {
+      "type": "string"
+    },
+    "receiver_id": {
+      "type": "string"
+    },
+    "receiver_name": {
+      "type": "string"
+    },
+    "receiver_email": {
+      "type": "string"
+    },
+    "subject": {
+      "type": "string"
+    },
+    "message_content": {
+      "type": "string"
+    },
+    "sent_date": {
+      "type": "string"
+    },
+    "is_read": {
+      "type": "boolean",
+      "default": false
+    },
+    "read_date": {
+      "type": "string"
+    }
+  }
+}

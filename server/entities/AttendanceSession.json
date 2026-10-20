@@ -1,0 +1,21 @@
+{
+  "name": "AttendanceSession",
+  "type": "object",
+  "properties": {
+    "batch_id": {
+      "type": "string"
+    },
+    "session_date": {
+      "type": "string"
+    },
+    "session_name": {
+      "type": "string"
+    },
+    "topic": {
+      "type": "string"
+    },
+    "faculty_name": {
+      "type": "string"
+    }
+  }
+}

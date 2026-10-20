@@ -1,0 +1,55 @@
+{
+  "name": "ProxyDetectionLog",
+  "type": "object",
+  "properties": {
+    "session_id": {
+      "type": "string"
+    },
+    "student_id": {
+      "type": "string"
+    },
+    "student_identifier": {
+      "type": "string"
+    },
+    "violation_type": {
+      "type": "string"
+    },
+    "risk_score": {
+      "type": "number"
+    },
+    "details": {
+      "type": "string"
+    },
+    "device_fingerprint": {
+      "type": "string"
+    },
+    "ip_address": {
+      "type": "string"
+    },
+    "latitude": {
+      "type": "number"
+    },
+    "longitude": {
+      "type": "number"
+    },
+    "gps_accuracy": {
+      "type": "number"
+    },
+    "distance_from_geofence": {
+      "type": "number"
+    },
+    "timestamp": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "default": "pending"
+    },
+    "reviewed_by": {
+      "type": "string"
+    },
+    "review_notes": {
+      "type": "string"
+    }
+  }
+}

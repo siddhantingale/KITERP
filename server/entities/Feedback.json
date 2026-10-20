@@ -1,0 +1,54 @@
+{
+  "name": "Feedback",
+  "type": "object",
+  "properties": {
+    "student_id": {
+      "type": "string"
+    },
+    "student_name": {
+      "type": "string"
+    },
+    "student_email": {
+      "type": "string"
+    },
+    "feedback_type": {
+      "type": "string"
+    },
+    "faculty_name": {
+      "type": "string"
+    },
+    "rating": {
+      "type": "number"
+    },
+    "comments": {
+      "type": "string"
+    },
+    "is_anonymous": {
+      "type": "boolean",
+      "default": false
+    },
+    "status": {
+      "type": "string",
+      "default": "Pending"
+    },
+    "admin_response": {
+      "type": "string"
+    },
+    "college_name": {
+      "type": "string"
+    },
+    "year": {
+      "type": "string"
+    },
+    "branch": {
+      "type": "string"
+    },
+    "division": {
+      "type": "string"
+    },
+    "batch_id": {
+      "type": "string",
+      "description": "Batch code (Batch.batch_id), not record id"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "name": "Student",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "prn": {
+      "type": "string"
+    },
+    "roll_no": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "college_name": {
+      "type": "string"
+    },
+    "year": {
+      "type": "string"
+    },
+    "branch": {
+      "type": "string"
+    },
+    "division": {
+      "type": "string"
+    },
+    "batch_id": {
+      "type": "string",
+      "description": "Batch code (Batch.batch_id), not record id"
+    }
+  },
+  "required": [
+    "name"
+  ]
+}

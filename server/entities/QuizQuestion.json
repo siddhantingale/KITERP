@@ -1,0 +1,34 @@
+{
+  "name": "QuizQuestion",
+  "type": "object",
+  "properties": {
+    "assignment_id": {
+      "type": "string"
+    },
+    "question_text": {
+      "type": "string"
+    },
+    "question_type": {
+      "type": "string"
+    },
+    "marks": {
+      "type": "number",
+      "default": 1
+    },
+    "options": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "correct_answer": {
+      "type": "string"
+    },
+    "order": {
+      "type": "number"
+    }
+  },
+  "required": [
+    "assignment_id"
+  ]
+}

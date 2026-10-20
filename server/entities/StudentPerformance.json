@@ -1,0 +1,61 @@
+{
+  "name": "StudentPerformance",
+  "type": "object",
+  "properties": {
+    "student_id": {
+      "type": "string"
+    },
+    "student_name": {
+      "type": "string"
+    },
+    "prn": {
+      "type": "string"
+    },
+    "roll_no": {
+      "type": "string"
+    },
+    "subject": {
+      "type": "string"
+    },
+    "assessment_type": {
+      "type": "string"
+    },
+    "marks_obtained": {
+      "type": "number"
+    },
+    "total_marks": {
+      "type": "number"
+    },
+    "percentage": {
+      "type": "number"
+    },
+    "grade": {
+      "type": "string"
+    },
+    "assessment_date": {
+      "type": "string"
+    },
+    "semester": {
+      "type": "string"
+    },
+    "remarks": {
+      "type": "string"
+    },
+    "college_name": {
+      "type": "string"
+    },
+    "year": {
+      "type": "string"
+    },
+    "branch": {
+      "type": "string"
+    },
+    "division": {
+      "type": "string"
+    },
+    "batch_id": {
+      "type": "string",
+      "description": "Batch code (Batch.batch_id), not record id"
+    }
+  }
+}

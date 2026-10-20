@@ -1,0 +1,32 @@
+{
+  "name": "GeoFenceZone",
+  "type": "object",
+  "properties": {
+    "session_id": {
+      "type": "string"
+    },
+    "location_name": {
+      "type": "string"
+    },
+    "latitude": {
+      "type": "number"
+    },
+    "longitude": {
+      "type": "number"
+    },
+    "radius_meters": {
+      "type": "number",
+      "default": 50
+    },
+    "college_name": {
+      "type": "string"
+    },
+    "batch_id": {
+      "type": "string"
+    },
+    "is_active": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

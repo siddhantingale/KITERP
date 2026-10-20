@@ -1,0 +1,47 @@
+{
+  "name": "ExcalidrawNote",
+  "type": "object",
+  "properties": {
+    "subject": {
+      "type": "string"
+    },
+    "topic": {
+      "type": "string"
+    },
+    "class_date": {
+      "type": "string"
+    },
+    "duration_minutes": {
+      "type": "number"
+    },
+    "excalidraw_data": {
+      "type": "string",
+      "description": "Serialized Excalidraw JSON"
+    },
+    "thumbnail_url": {
+      "type": "string"
+    },
+    "faculty_email": {
+      "type": "string"
+    },
+    "faculty_name": {
+      "type": "string"
+    },
+    "college_name": {
+      "type": "string"
+    },
+    "year": {
+      "type": "string"
+    },
+    "branch": {
+      "type": "string"
+    },
+    "division": {
+      "type": "string"
+    },
+    "batch_id": {
+      "type": "string",
+      "description": "Batch code (Batch.batch_id), not record id"
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "name": "FacultySubjectMapping",
+  "type": "object",
+  "properties": {
+    "faculty_id": {
+      "type": "string"
+    },
+    "faculty_email": {
+      "type": "string"
+    },
+    "faculty_name": {
+      "type": "string"
+    },
+    "batch_id": {
+      "type": "string"
+    },
+    "year": {
+      "type": "string"
+    },
+    "division": {
+      "type": "string"
+    },
+    "subject_name": {
+      "type": "string"
+    },
+    "subject_code": {
+      "type": "string"
+    },
+    "subject_type": {
+      "type": "string"
+    },
+    "weekly_lecture_count": {
+      "type": "number",
+      "default": 3
+    },
+    "is_active": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

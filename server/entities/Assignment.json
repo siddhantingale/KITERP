@@ -1,0 +1,73 @@
+{
+  "name": "Assignment",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "subject": {
+      "type": "string"
+    },
+    "deadline": {
+      "type": "string"
+    },
+    "max_marks": {
+      "type": "number",
+      "default": 100
+    },
+    "assignment_category": {
+      "type": "string",
+      "default": "Individual"
+    },
+    "attachment_url": {
+      "type": "string"
+    },
+    "content_type": {
+      "type": "string",
+      "description": "e.g. FILE, TEXT, QUIZ"
+    },
+    "quiz_time_limit": {
+      "type": "number"
+    },
+    "quiz_shuffle_questions": {
+      "type": "boolean",
+      "default": false
+    },
+    "quiz_attempt_limit": {
+      "type": "number",
+      "default": 1
+    },
+    "faculty_email": {
+      "type": "string"
+    },
+    "faculty_name": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "default": "active"
+    },
+    "college_name": {
+      "type": "string"
+    },
+    "year": {
+      "type": "string"
+    },
+    "branch": {
+      "type": "string"
+    },
+    "division": {
+      "type": "string"
+    },
+    "batch_id": {
+      "type": "string",
+      "description": "Batch code (Batch.batch_id), not record id"
+    }
+  },
+  "required": [
+    "title"
+  ]
+}

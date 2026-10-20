@@ -1,0 +1,65 @@
+{
+  "name": "Session",
+  "type": "object",
+  "properties": {
+    "session_name": {
+      "type": "string"
+    },
+    "topic_taught": {
+      "type": "string"
+    },
+    "faculty_name": {
+      "type": "string"
+    },
+    "faculty_email": {
+      "type": "string"
+    },
+    "session_date": {
+      "type": "string",
+      "description": "YYYY-MM-DD"
+    },
+    "session_time": {
+      "type": "string"
+    },
+    "time_slot": {
+      "type": "string"
+    },
+    "duration": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "default": "scheduled"
+    },
+    "total_students": {
+      "type": "number",
+      "default": 0
+    },
+    "present_count": {
+      "type": "number",
+      "default": 0
+    },
+    "batch_description": {
+      "type": "string"
+    },
+    "tpo_email": {
+      "type": "string"
+    },
+    "college_name": {
+      "type": "string"
+    },
+    "year": {
+      "type": "string"
+    },
+    "branch": {
+      "type": "string"
+    },
+    "division": {
+      "type": "string"
+    },
+    "batch_id": {
+      "type": "string",
+      "description": "Batch code (Batch.batch_id), not record id"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "name": "StudentNotification",
+  "type": "object",
+  "properties": {
+    "student_id": {
+      "type": "string"
+    },
+    "student_email": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "message": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "category": {
+      "type": "string"
+    },
+    "priority": {
+      "type": "string"
+    },
+    "is_read": {
+      "type": "boolean",
+      "default": false
+    },
+    "read_at": {
+      "type": "string"
+    },
+    "link_url": {
+      "type": "string"
+    },
+    "related_id": {
+      "type": "string"
+    },
+    "created_by": {
+      "type": "string"
+    },
+    "batch_id": {
+      "type": "string"
+    },
+    "college_name": {
+      "type": "string"
+    },
+    "year": {
+      "type": "string"
+    }
+  }
+}
